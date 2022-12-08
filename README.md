@@ -1,4 +1,4 @@
-# Agenda
+# Agenda de Contatos
 Aplicação web com CRUD completo de uma agenda de contatos. Tarefa para avaliação da matéria "Usabilidade, desenvolvimento web, mobile e jogos" no Centro Universitário Una.
 
 ## Tecnologias
