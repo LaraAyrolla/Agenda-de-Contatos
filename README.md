@@ -5,7 +5,7 @@ Aplicação web com CRUD completo de uma agenda de contatos. Tarefa para avalia�
 Utilização do Framework Angular com o auxílio de json-server para a persistência de dados.
 
 ## Funcionalidades
-* <b> Ações: </b> Cadastrar, Visualizar, Editar e Deletar Contatos. Filtrar a lista de contatos por coincidência parcial.
+* <b> Ações: </b> Cadastrar, Visualizar, Editar e Deletar Contatos. Filtrar a lista de contatos por coincidência exata ou parcial.
 * <b> Campos: </b> ID, Nome, Telefone, E-mail, Empresa
 
 ## Utilização
@@ -16,7 +16,6 @@ Utilização do Framework Angular com o auxílio de json-server para a persistê
 ## Screenshots
 ![Alt text](/src/assets/screenshots/home.png?raw=true "Página Inicial")
 ![Alt text](/src/assets/screenshots/create.png?raw=true "Criar Contato")
-![Alt text](/src/assets/screenshots/edit.png?raw=true "Editar Contato")
 ![Alt text](/src/assets/screenshots/filter.png?raw=true "Filtrar Contato")
 
 
