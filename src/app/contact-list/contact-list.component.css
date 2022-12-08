@@ -5,7 +5,7 @@ button{
     border-color: #000000;
     border-width: 1px;
     padding: 0.75%;
-    width: 10%;
+    margin-bottom: 0.5%;
 }
 
 /*filters*/
@@ -26,7 +26,8 @@ input{
     margin-bottom: 1%;
 }
 .search-button{
-    margin-left: 83.5%;
+    width: 15%;
+    margin-left: 78.5%;
 }
 
 /*contact list*/
@@ -36,8 +37,8 @@ input{
     background-color: #fbe8ec;
 }
 .create-button{
+    width: 10%;
     margin-top: 2%;
-    margin-bottom: 0;
     margin-left: 2px;
 }
 .create-link{
