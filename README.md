@@ -14,10 +14,8 @@ Utilização do Framework Angular com o auxílio de json-server para a persistê
 * Por fim, a página inicial da aplicação pode ser acessada no browser através da url "http://localhost:4200/". Os dados do json-server podem ser consultados na url "http://localhost:3000/".
 
 ## Screenshots
-![Alt text](/src/assets/screenshots/home.png?raw=true "Página Inicial")
 ![Alt text](/src/assets/screenshots/create.png?raw=true "Criar Contato")
 ![Alt text](/src/assets/screenshots/edit.png?raw=true "Editar Contato")
-![Alt text](/src/assets/screenshots/filter.png?raw=true "Filtrar Contato")
 
 
 #
