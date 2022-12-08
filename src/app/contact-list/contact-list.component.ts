@@ -33,15 +33,15 @@ export class ContactListComponent {
     const phone = (<HTMLInputElement>document.getElementById("phone")).value
     const email = (<HTMLInputElement>document.getElementById("email")).value
     const company = (<HTMLInputElement>document.getElementById("company")).value
-    this.url = 'http://localhost:3000/contacts';
+    this.url = 'http://localhost:3000/contacts?';
     if (name!=null && name!='')
-      this.url+= '?name=' + name;
+      this.url+= 'name=' + name + '&';
     if (phone!=null && phone!='')
-      this.url+= '&phone=' + phone;
+      this.url+= 'phone=' + phone + '&';
     if (email!=null && email!='')
-      this.url+= '&email=' + email;
+      this.url+= 'email=' + email + '&';
     if (company!=null && company!='')
-      this.url+= '&company=' + company;
+      this.url+= 'company=' + company;
     this.http.get(this.url).subscribe(res => {
       this.contacts = res
     })
