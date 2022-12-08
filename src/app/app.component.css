@@ -1,0 +1,13 @@
+/*all*/
+body{
+    margin: 0 10%;
+}
+
+/*header*/
+h1{
+    background: linear-gradient(90deg, #ffc0cb 40%, #00ffff 100%);
+    /* background: linear-gradient(90deg, #00ffff 5%, #ffc0cb 60%); */
+    text-align: center;
+    padding: 2% 0;
+    margin-bottom: 0;
+}

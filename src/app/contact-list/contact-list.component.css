@@ -1,0 +1,63 @@
+/*buttons*/
+button{
+    background-color: #ffc0cb;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    padding: 0.75%;
+    width: 10%;
+}
+
+/*filters*/
+.filters{
+    background-color: #d0fdfd;
+    padding: 2% 0;
+    margin-bottom: 0;
+}
+.filters-title{
+    margin-left: 5%;
+}
+input{
+    float: left;
+    width: 38%;
+    padding: 0.5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 1%;
+}
+.search-button{
+    margin-left: 83.5%;
+}
+
+/*contact list*/
+.contact-list{
+    margin-top: 0;
+    padding: 2% 5.5%;
+    background-color: #fbe8ec;
+}
+.create-button{
+    margin-top: 2%;
+    margin-bottom: 0;
+    margin-left: 2px;
+}
+.create-link{
+    text-decoration: none;
+    color: #000000;
+}
+tr:nth-child(even){
+    background-color: #d0fdfd;
+}
+tr:nth-child(odd){
+    background-color: #00ffff;
+}
+table{
+    width: 100%;
+    text-align: center;
+}
+td, th{
+    padding: 1%
+}
+.id{
+    text-align: left;
+    padding-left: 0.5%;
+}

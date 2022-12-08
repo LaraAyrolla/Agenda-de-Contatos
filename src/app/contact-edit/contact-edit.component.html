@@ -1,0 +1,11 @@
+<div class="edit">
+    <h2 class="edit-title"> Editar Contato: </h2>
+    <form>
+        <input id="id" type="hidden" placeholder="ID" value={{id}}>
+        <input id="name" type="text" placeholder="Nome" value={{name}}>
+        <input id="phone" type="text" placeholder="Telefone" value={{phone}}>
+        <input id="email" type="text" placeholder="E-mail" value={{email}}>
+        <input id="company" type="text" placeholder="Empresa" value={{company}}>
+        <button class="save-button" type="submit" (click)="saveContact()">Salvar</button>
+    </form>
+</div>

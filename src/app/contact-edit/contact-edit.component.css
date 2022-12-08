@@ -1,0 +1,26 @@
+/*filters*/
+.edit{
+    background-color: #d0fdfd;
+    padding: 2% 0;
+    margin-bottom: 0;
+}
+.edit-title{
+    margin-left: 5%;
+}
+input{
+    float: left;
+    width: 38%;
+    padding: 0.5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 1%;
+}
+.save-button{
+    background-color: #00ffff;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    width: 10%;
+    padding: 0.75%;
+    margin-left: 83.5%;
+}

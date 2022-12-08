@@ -1,0 +1,35 @@
+<div class="filters">
+    <h2 class="filters-title"> Filtros: </h2>
+    <form>
+        <input id="name" type="text" placeholder="Nome">
+        <input id="phone" type="text" placeholder="Telefone" mask="+##(##)#####-####">
+        <input id="email" type="text" placeholder="E-mail">
+        <input id="company" type="text" placeholder="Empresa">
+        <button class="search-button" type="button" (click)="filterContacts()">Pesquisar</button>
+    </form>
+</div>
+<router-outlet></router-outlet>
+<div class="contact-list">
+    <h2 class="contacts-title"> Contatos: </h2>
+    <button class="create-button"><a class="create-link" [routerLink]="['criar']">Novo Contato</a></button>
+    <table>
+        <tr>
+            <th class="id">ID</th>
+            <th>Nome</th>
+            <th>Telefone</th>
+            <th>E-mail</th>
+            <th>Empresa</th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr *ngFor="let contact of contacts;">
+            <td class="id">{{contact.id}}</td>
+            <td>{{contact.name}}</td>
+            <td>{{contact.phone}}</td>
+            <td>{{contact.email}}</td>
+            <td>{{contact.company}}</td>
+            <td><a [routerLink]="['editar', contact.id]">Editar</a></td>
+            <td><a [routerLink]="['deletar', contact.id]">Deletar</a></td>
+        </tr>
+    </table>
+</div>
